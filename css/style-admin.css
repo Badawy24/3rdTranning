@@ -1,12 +1,16 @@
-.admin-nav {
+.adm-nav, .admin-options {
     background: linear-gradient(to right,#003971, #bc4949);
 }
+
 .admin-options .btn {
     width: 100%;
+    background: #fff;
+    color: #003971;
+    border: transparent;
 }
 .admin-options .btn,
 .admin-options button i {
-    color: #fff;
+    color: #003971;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -16,9 +20,15 @@
     font-size: 25px;
 }
 .admin-nav i {
-    color: #287AEA;
+    color: #bc4949;
     font-size: 27px;
     margin-right:5px
+}
+.alert-p {
+    color: #fff;
+    background: linear-gradient(to right,#003971, #bc4949);
+    border-color: transparent;
+    
 }
 .alert-admin {
     position: relative;
@@ -33,12 +43,16 @@
 
 .doc-data p.doc-btn {
     text-align: center;
+    
 }
 /* .doc-data p.doc-btn button a {
     color: #fff;
     text-decoration: none;
 } */
 .doc-data p.doc-btn button {
+    background-color: #bc4949;
+    font-weight: bold;
+    border: transparent;
     font-size:20px;
     padding: 7px 30px;
     border-radius: 20px;
@@ -63,3 +77,10 @@
     margin: 10px auto; 
     text-align: center
 }
+.search-btn {
+    background-color: #bc4949;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+}
+.search-btn:hover {color: #fff;}
