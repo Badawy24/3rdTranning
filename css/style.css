@@ -45,18 +45,14 @@ a.link:hover {
 }
 
 .main-div-login {
-<<<<<<< HEAD
     padding-bottom: 30px;
     background: linear-gradient(to right,#003971, #bc4949);
-    
-=======
   /* padding-bottom: 30px; */
   background: linear-gradient(to right, #003971, #bc4949);
   min-height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
->>>>>>> 3ae7939ea8729d3d774b3e53c4a25cc1299475a0
 }
 
 .main-div-login .login-form {
@@ -95,7 +91,7 @@ a.link:hover {
 .register-form { margin-top: 20px;}
 .register-form input,
 .register-form select {
-<<<<<<< HEAD
+
     margin-bottom: 20px;
     font-size: 20px;
     background-color: transparent;
@@ -110,13 +106,13 @@ a.link:hover {
 }
 .register-form input::placeholder {
     color: #fff;
-=======
+
   margin-bottom: 20px;
   font-size: 20px;
->>>>>>> 3ae7939ea8729d3d774b3e53c4a25cc1299475a0
+
 }
 .register-form a {
-<<<<<<< HEAD
+
     display: block;
     text-align: right;
     color: #fff;
@@ -131,9 +127,9 @@ a.link:hover {
     background-color: #fff;
     color: #003971;
     font-weight: bold;
-=======
+
   display: block;
-  text-align: right;
+  /* text-align: right; */
 }
 
 .register-form input.submit {
@@ -141,7 +137,7 @@ a.link:hover {
   margin: 10px auto;
   border-radius: 50px;
   font-size: 25px;
->>>>>>> 3ae7939ea8729d3d774b3e53c4a25cc1299475a0
+
 }
 
 /* home style */

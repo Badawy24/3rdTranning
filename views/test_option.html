@@ -1,42 +1,84 @@
-@extends('main-template')
-@section('content')
-<div class="menu">
-    <div class="container">
-      
-        <div class ="row ">
+<!DOCTYPE html>
+<html lang="en">
 
-            <div class="col-md-4">
-                <img class="test_image_1" src="/images/test_menu.png" />
-            </div> 
-            
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Dose</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+</head>
 
-            <div  class="col-md-4">
-                <div class="test_menu">
-
-                    <div class = "choice-1">
-                        <p>
-                            To Perform a New Reservation 
-                        </p>
-                        <button class="btn btn-primary mb-3 submit" onclick="window.location.href = '/new_test';"> New Test </button>   
+<body>
+    <main>
+        <div class="menu main-div-login">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <h3>KOVID 19</h3>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="service.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="test_option.html">Test</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="new_dose.html">Dose</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact_doc.html">Contact Doctor</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="login.html">Log Out</a>
+                            </li>
+                        </ul>
                     </div>
+                </div>
+            </nav>
+            <div class="container">
 
-                    <div class = "choice-2">
-                        <p>
-                            To Edit an Existing Reservation  
-                        </p>
-                        <button class="btn btn-primary mb-3 submit" onclick="window.location.href = '/my_tests';"> My Tests </button>   
+                <div class="row ">
+
+                    <div class="col-md-4">
+                        <img class="test_image_1" src="../images/test_reservation.png" />
                     </div>
-                    
+                    <div class="col-md-4">
+                        <div class="test_menu">
+                            <div class="choice-1">
+                                <p class="lead head-fog">
+                                    To Perform a New Reservation
+                                </p>
+                                <a href="new_test.html" class="btn btn-front mb-3"> New Test </a>
+                            </div>
+                            <div class="choice-2">
+                                <p class="lead head-fog">
+                                    To Edit an Existing Reservation
+                                </p>
+                                <a href="my_tests.html" class="btn btn-front mb-3 "> My Tests </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="test_image_2" src="../images/test_menu_2.png" />
+                    </div>
                 </div>
             </div>
-            
-            <div class="col-md-4">
-                <img class="test_image_2" src="/images/test_menu_2.png" />
-            </div>
-
         </div>
-        
-    </div>
-    
-</div>
-@endsection
+    </main>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/file.js"></script>
+    <script src="../js/all.min.css"></script>
+</body>
+
+</html>

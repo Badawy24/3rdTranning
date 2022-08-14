@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,10 +25,10 @@
             <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link active" href="/logout">Admin</a>
+                        <a class="nav-link active" href="#">Admin</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="/logout">Log Out</a>
+                        <a class="nav-link" href="../login.html">Log Out</a>
                     </li>
                 </ul>
             </div>
@@ -47,7 +46,8 @@
                 </div>
                 <div class='col-md-3'>
                     <div class="opt-btn">
-                        <a class="active btn btn-primary" href="admin_doc_msg.html"><i class="fa-solid fa-inbox"></i> Doctor
+                        <a class="active btn btn-primary" href="admin_doc_msg.html"><i class="fa-solid fa-inbox"></i>
+                            Doctor
                             Message</a>
                     </div>
                 </div>
@@ -79,16 +79,16 @@
 
         <div class='form'>
             <div class="container">
-                <form action='admin_doc_msg' method='post' class="row">
-                    <div class= "col-md-8">
-                        
+                <form action='#' method='post' class="row">
+                    <div class="col-md-8">
+
                         <select class="form-select" aria-label="Default select example" name="doc_mail">
                             <option selected disabled>Choose Doctor Name</option>
-                            
-                            <option value= "doc 1"> doc 1 </option>
-                            <option value= "doc 1"> doc 1 </option>
-                            <option value= "doc 1"> doc 1 </option>
-                            
+
+                            <option value="doc 1"> doc 1 </option>
+                            <option value="doc 1"> doc 1 </option>
+                            <option value="doc 1"> doc 1 </option>
+
                         </select>
                     </div>
                     <div class="col-md-4">
@@ -99,9 +99,10 @@
         </div>
         <div class="doc-data">
             <div class="container">
-                
+
                 <p class="doc-btn">
-                    <button class="btn btn-primary" type="submit" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <button class="btn btn-primary" type="submit" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         Get Message Know <i class="fa-solid fa-arrow-turn-down fa-bounce"></i>
                     </button>
                 </p>
@@ -110,16 +111,18 @@
                         <div class="row">
                             <h4 class='p-2'>There is ((number)) Message For Doctor ((Name)) : </h4>
                             <p class="lead"><b>Time :</b> d-m-y h:i:s</p>
-                            
-                                <div class="doc col-12">
-                                    <h5>Patient Name : ((Name)) </h5>
-                                    <p class="lead"> ((Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quae nam saepe molestiae odio enim totam ullam praesentium. Labore laboriosam, repellendus sint debitis magni vel magnam nobis sapiente hic reiciendis?)) </p>
-                                    
-                                </div>
+
+                            <div class="doc col-12">
+                                <h5>Patient Name : ((Name)) </h5>
+                                <p class="lead"> ((Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quae
+                                    nam saepe molestiae odio enim totam ullam praesentium. Labore laboriosam,
+                                    repellendus sint debitis magni vel magnam nobis sapiente hic reiciendis?)) </p>
+
+                            </div>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
@@ -131,6 +134,3 @@
 </body>
 
 </html>
-
-
-
