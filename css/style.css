@@ -539,3 +539,6 @@ textarea::placeholder {
 .head-fog{
   color:white;
 }
+.inp-form option{
+  background-color: #5C415D;
+}
