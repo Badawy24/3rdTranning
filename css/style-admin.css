@@ -1,3 +1,6 @@
+.admin-nav {
+    background: linear-gradient(to right,#003971, #bc4949);
+}
 .admin-options .btn {
     width: 100%;
 }

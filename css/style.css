@@ -47,7 +47,7 @@ a.link:hover {
 .main-div-login {
     padding-bottom: 30px;
     background: linear-gradient(to right,#003971, #bc4949);
-    height: 100vh;
+    
 }
 
 
@@ -83,22 +83,39 @@ a.link:hover {
     margin: 20px auto;
 }
 
+.register-form { margin-top: 20px;}
 .register-form input,
 .register-form select {
     margin-bottom: 20px;
     font-size: 20px;
+    background-color: transparent;
+    color: #fff;
 }
-
+.register-form input.form-control:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: #bc4949;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(188 73 73 / 25%);
+}
+.register-form input::placeholder {
+    color: #fff;
+}
 .register-form a {
     display: block;
     text-align: right;
+    color: #fff;
 }
 
 .register-form input.submit {
     width: 200px;
     margin: 10px auto;
+    border-color: transparent;
     border-radius: 50px;
     font-size: 25px;
+    background-color: #fff;
+    color: #003971;
+    font-weight: bold;
 }
 
 /* home style */

@@ -1,5 +1,79 @@
-@extends('admin.admin-dashbord-temp')
-@section('content')
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/style-admin.css">
+    <link rel="stylesheet" href="../../css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark admin-nav">
+        <div class="container">
+            <a class="navbar-brand admin-nav" href="#">
+                <i class="fa-solid fa-gear fa-spin"></i> Dashboard
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" href="/logout">Admin</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="/logout">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="admin-options p-3 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class='col-md-3'>
+                    <div class="opt-btn">
+                        <a class="btn btn-primary" href="#"><i
+                                class="fa-solid fa-calendar-minus"></i> Doctor Data</a>
+                    </div>
+                </div>
+                <div class='col-md-3'>
+                    <div class="opt-btn">
+                        <a class="btn btn-primary" href="#"><i class="fa-solid fa-inbox"></i> Doctor
+                            Message</a>
+                    </div>
+                </div>
+                <div class='col-md-3'>
+                    <div class="opt-btn">
+                        <a class="btn btn-primary" href="#"><i class="fa-solid fa-virus"></i> Dose
+                            Data</a>
+                    </div>
+                </div>
+                <div class='col-md-3'>
+                    <div class="opt-btn">
+                        <a class="btn btn-primary" href="#"><i class="fa-solid fa-vials"></i> Test
+                            Data</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert-admin">
+        <div class="container p-3">
+            <div class="alert alert-primary" role="alert">
+                Hello From Admin Page , You Can Get Reports About Data You Want Here.
+            </div>
+        </div>
+    </div>
+    <div>
+        
 <div class="doc-data">
     <div class="container">
         <p class="doc-btn">
@@ -7,33 +81,31 @@
                 Get Doctor Data Now <i class="fa-solid fa-arrow-turn-down fa-bounce"></i>
             </button>
         </p>
-        @if(session('doctors'))
+        
         <div class="report collapse" id="collapseExample">
             <div class="card card-body">
                 <div class="row">
-                    <h4 class='p-2'>Data About {{ count(session('doctors')) }} doctors in Our System : </h4>
-                    <p class="lead"><b>Time :</b> <?php $date = date('d-m-y h:i:s'); echo $date; ?></pclass->
+                    <h4 class='p-2'>Data About ((Number)) doctors in Our System : </h4>
+                    <p class="lead"><b>Time :</b> d-m-y h:i:s</p>
                     
-                    @foreach (session('doctors') as $doc)
                         <div class="doc col-md-6">
-                            <h5>Doctor Name : {{ $doc->doc_fname . ' ' . $doc->doc_lname }}</h5>
-                            <p class="lead">Age : {{ $doc->doc_age}}</p>
-                            <p class="lead">Phone Number : {{ $doc->doc_phone}}</p>
-                            <p class="lead">E-mail : <a href="#"> {{ $doc->doc_email}} </a></p>
+                            <h5>Doctor Name : ((Name))</h5>
+                            <p class="lead">Age : ((Age))</p>
+                            <p class="lead">Phone Number : ((010))</p>
+                            <p class="lead">E-mail : <a href="#"> a@a.com </a></p>
                         </div>
-                    @endforeach
                 </div>
             </div>
         </div>
-        @else
-        <div class="no-doc collapse" id="collapseExample">
-                <div class="alert alert-danger d-flex align-items-center" role="alert">
-                    <div>
-                        {{ session('msg') }}
-                    </div>
-                </div>
-        </div>
-        @endif
+        
     </div>
 </div>
-@endsection
+    </div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/file.js"></script>
+    <script src="../../js/all.min.css"></script>
+</body>
+
+</html>
+
