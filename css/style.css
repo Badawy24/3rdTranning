@@ -204,10 +204,10 @@ a.link:hover {
 .card {
   transition: 1s all ease-in-out;
   cursor: pointer;
-  border: 3px solid #f6f8fd;
+  border: 1px solid #909090;
   background-color: transparent;
   border-radius: 20px;
-  box-shadow: 10px 10px 5px rgb(202, 203, 208);
+  box-shadow: 4px 4px 11px rgb(255 255 255 / 10%);
 }
 
 .card-img {
@@ -229,6 +229,7 @@ a.link:hover {
 .head-cards {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  color:#fff;
 }
 
 .card-title {
@@ -351,7 +352,6 @@ a.link:hover {
 
 .test_menu p {
   line-height: 1.67;
-  color: #5c73a5;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -367,14 +367,12 @@ a.link:hover {
 .test_image_1 {
   width: 450px;
   margin: 150px 0;
-  opacity: 0.5;
   margin-top: 60px;
 }
 
 .test_image_2 {
   width: 450px;
   margin: 150px 0;
-  opacity: 0.5;
   margin-top: 40px;
 }
 
