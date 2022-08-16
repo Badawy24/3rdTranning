@@ -1,159 +1,114 @@
+<!-- Badawy -->
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>My Profile</title>
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/all.min.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+</head>
 
-    <body>
-        <main>
-            <div class="menu main-div-login">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container">
-                        <a class="navbar-brand" href="#">
-                            <h3>KOVID 19</h3>
-                        </a>
-                        <button class="navbar-toggler" type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle
-                            navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse
-                            justify-content-end" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item ">
-                                    <a class="nav-link active"
-                                        href="profile.html">Profile</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="service.html">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="test_option.html">Test</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="new_dose.html">Dose</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact_doc.html">Contact
-                                        Doctor</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="login.html">Log
-                                        Out</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+<body>
+    <main>
+        <div class="main-div-login">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <h3>KOVID 19</h3>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="profile.html">Profile</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="service.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="test_option.html">Test</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="new_dose.html">Dose</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact_doc.html">Contact Doctor</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="login.html">Log Out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="profile-page">
+                <div class="container">
+                    <h2 class="head-cards h1 py-5 text-center">Welcome <span class="user-name">Ali</span> To Kovidio </h2>
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="register-form">
-                                <!-- ////////////// -->
-                                <form action="profile.html" method="POST"
-                                    class="row">
-
-                                    <div class="col-md-6">
-                                        <label for="f_name" class="form-label
-                                            profile_label_style">First Name</label>
-                                        <input class=" form-control
-                                            input_profile" disabled type="text"
-                                            value="Ahmed" name="pat_fname"
-                                            id="f_name" aria-label="default
-                                            input example">
-
-                                    </div>
-
-
-                                    <div class="col-md-6">
-                                        <label for="l_name" class="form-label
-                                            profile_label_style">Last Name</label>
-                                        <input class="form-control col-auto
-                                            input_profile" type="text" disabled
-                                            value="Lotfy"
-                                            name="pat_lname" id="l_name"
-                                            aria-label="default input example">
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <label for="ssn" class="form-label
-                                            profile_label_style">Social Security
-                                            Number</label>
-
-                                        <input class=" form-control
-                                            input_profile" type="text"
-                                            value="30456011234917"
-                                            name="pat_SSN" id="ssn"
-                                            disabled
-                                            aria-label="default input example">
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <label for="email" class="form-label
-                                            profile_label_style">Email</label>
-                                        <input class=" form-control edit_label"
-                                            type="email" value="ahmed@gmail.com"
-                                            name="pat_email" id="email"
-                                            aria-label="default input example">
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <label for="address" class="form-label
-                                            profile_label_style">Address</label>
-                                        <input class=" form-control" type="text"
-                                            value="3rd building, 6th street,benha, qaluibia"
-                                            name="pat_address"
-                                            id="address" aria-label="default
-                                            input example">
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <label for="phone" class="form-label
-                                            profile_label_style">Phone</label>
-                                        <input class=" form-control" type="tel"
-                                            value="01141150618"
-                                            name="pat_phone"
-                                            id="phone" aria-label="default input
-                                            example">
-                                    </div>
-                                    <input type="submit" class="btn btn-primary
-                                        mb-3 submit" value="Save"
-                                        onclick="myFunction()"
-                                        name="register-user">
-                                </form>
+                        <div class="user-data col-md-5">
+                            <h4 class="text-center head-cards">Personal Data</h4>
+                            <div class="real-data">
+                                <h5>First Name :</h5>
+                                <span class="h5">Ali</span>
                             </div>
+                            <div class="real-data">
+                                <h5>Last Name :</h5>
+                                <span class="h5">Ahmed</span>
+                            </div>
+                            <div class="real-data">
+                                <h5>Email :</h5>
+                                <span class="h5">ali@gmail.com</span>
+                            </div>
+                            <div class="real-data">
+                                <h5>Address :</h5>
+                                <span class="h5">Cairo - 6 st</span>
+                            </div>
+                            <div class="real-data">
+                                <h5>SSN :</h5>
+                                <span class="h5">3011256945623</span>
+                            </div>
+                            <div class="real-data">
+                                <h5>Phone :</h5>
+                                <span class="h5">01012365478</span>
+                            </div>
+                            <div class="real-data">
+                                <h5>Age :</h5>
+                                <span class="h5">21</span>
+                            </div>
+                            <div class="real-data">
+                                <h5>Birthday :</h5>
+                                <span class="h5">12-1-2001</span>
+                            </div>
+                             <div class="card-body text-center d-inline-block">
+                                    <a href="Editprofile.html" class="card-btn btn btn-front mb-3 py-2">Edit Your Profile</a>
+                                </div>
+                                <div class="card-body text-center d-inline-block">
+                                    <a href="service.html" class="card-btn btn btn-front mb-3 py-2">Check Service</a>
+                                </div>
                         </div>
-                        <div class="col-md-6 center-image">
-                            <div class="login-img ">
-                                <img
-                                    src="../images/pngfind.com-medical-icon-png-1928949.png"
-                                    class="img-fluid" width="200px"
-                                    height="200px"/>
-                            </div>
+                        <div class="img-profile col-md-7 text-center">
+                            <div class="profile-img ">
+                            <img src="../images/Profile-data-rafiki.png" class="img-fluid" />
+                        </div>
                         </div>
                     </div>
                 </div>
-                <button >Try it</button>
-
-                <script>
-                function myFunction() {
-                    alert("Successfully saved");
-                }
-                </script>
             </div>
-        </main>
-        <script src="../js/jquery-3.6.0.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/file.js"></script>
-        <script src="../js/all.min.css"></script>
-    </body>
+        </div>
+    </main>
+
+    <!-- <script src="./js/jquery-3.6.0.min.js"></script> -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/file.js"></script>
+    <script src="./js/all.min.css"></script>
+</body>
 
 </html>

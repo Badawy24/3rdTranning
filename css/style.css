@@ -566,7 +566,7 @@ textarea::placeholder {
   width: 200px;
   margin: 10px auto;
   border-radius: 50px;
-  font-size: 25px;
+  font-size: 23px;
   background-color: #003971;
   color: white;
 }
@@ -602,3 +602,43 @@ textarea::placeholder {
   justify-content: center !important;
   align-items: center !important;
 }
+
+/* Profile */
+.user-name{
+  color:#032E5A ;
+}
+.user-data{
+  border: 5px solid #AE474C;
+  border-radius: 20px;
+  box-shadow:3px 3px 20px #ba494a;
+}
+.user-data h4{
+  padding-top: 20px;
+}
+.real-data{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding: 7px;
+
+}
+
+.real-data h5{
+  display: inline-block;
+  color:#ba494a;
+ font-weight: bold;
+}
+
+.real-data span{
+  color: #FFF;
+font-weight: bold;
+}
+.profile-img{
+  width: auto;
+  max-height: 500px;
+  overflow: hidden;
+}
+.img-fluid{
+width: 80%;
+height: 100%;
+}
+/* Profile*/
