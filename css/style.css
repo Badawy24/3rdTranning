@@ -204,10 +204,15 @@ a.link:hover {
 .card {
   transition: 1s all ease-in-out;
   cursor: pointer;
-  border: 1px solid #909090;
+  /* border: 1px solid #909090; */
   background-color: transparent;
+  /* border-radius: 20px; */
+  /* box-shadow: 4px 4px 11px rgb(255 255 255 / 10%); */
+  margin-left:15px ;
+  border: 5px solid  rgba(255,255,255,0.4);
   border-radius: 20px;
-  box-shadow: 4px 4px 11px rgb(255 255 255 / 10%);
+  box-shadow:2px 2px 7px #FFF;
+  cursor: pointer;
 }
 
 .card-img {
@@ -222,8 +227,7 @@ a.link:hover {
 }
 
 .card:hover {
-  border: 3px solid #287aea;
-  background-color: #e3e7f1;
+  transform: scale(1.06);
 }
 
 .head-cards {
@@ -235,16 +239,20 @@ a.link:hover {
 .card-title {
   transition: 1s all ease-in-out;
   color: white;
+  margin-bottom: 10px !important;
 }
-
+.card-text{
+  color: white;
+}
 .card-btn {
   width: 200px;
   border-radius: 50px;
   margin: 0px auto;
+  font-weight: bold;
 }
-.card:hover .card-title {
+/* .card:hover .card-title {
   color: #003971;
-}
+} */
 /* End Services Page Abdelrahman*/
 
 /* Start Contact Form */
@@ -567,8 +575,8 @@ textarea::placeholder {
   margin: 10px auto;
   border-radius: 50px;
   font-size: 23px;
-  background-color: #003971;
-  color: white;
+  background-color: White;
+  color: #003971;
 }
 .head-fog{
   color:white;
@@ -605,33 +613,34 @@ textarea::placeholder {
 
 /* Profile */
 .user-name{
-  color:#032E5A ;
+  color: white;
+  font-family: cursive;
+  cursor: pointer;
 }
 .user-data{
-  border: 5px solid #AE474C;
+  border: 5px solid  rgba(255,255,255,0.3);
   border-radius: 20px;
-  box-shadow:3px 3px 20px #ba494a;
+  box-shadow:1px 1px 15px #FFF;
+  cursor: pointer;
 }
-.user-data h4{
+
+.user-data h2{
   padding-top: 20px;
+  font-family: cursive;
 }
+
 .real-data{
   font-family: Arial, Helvetica, sans-serif;
   margin: 5px;
   padding: 7px;
-
+  color:#FFF;
 }
 
 .real-data h5{
   display: inline-block;
-  color:#ba494a;
- font-weight: bold;
+  font-weight: bold;
 }
 
-.real-data span{
-  color: #FFF;
-font-weight: bold;
-}
 .profile-img{
   width: auto;
   max-height: 500px;
@@ -640,5 +649,12 @@ font-weight: bold;
 .img-fluid{
 width: 80%;
 height: 100%;
+}
+.btn-pro{
+font-weight: bold;
+width: 201px;
+}
+.btn-pro:hover{
+  transform: scale(1.1);
 }
 /* Profile*/
